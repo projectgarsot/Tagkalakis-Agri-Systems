@@ -32,7 +32,7 @@ const LegalInfo: React.FC = () => {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === 'petrides') {
+    if (password === 'petridis') {
       setIsAdmin(true);
       setShowLogin(false);
       setPassword('');
